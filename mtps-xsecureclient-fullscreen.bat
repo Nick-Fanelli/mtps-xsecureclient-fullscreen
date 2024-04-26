@@ -23,6 +23,7 @@ if not exist "%~n0.exe" (
 @REM %~n0.exe %*
 
 @REM MOVE TO CAMERA POSITON CODE
+timeout /t 30 /nobreak
 %~n0.exe moveTo 4000x60
 %~n0.exe moveBy -15x0
 %~n0.exe click
