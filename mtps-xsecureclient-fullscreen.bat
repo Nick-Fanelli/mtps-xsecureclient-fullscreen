@@ -24,8 +24,8 @@ if not exist "%~n0.exe" (
 
 @REM MOVE TO CAMERA POSITON CODE
 timeout /t 20 /nobreak > nul
-%~n0.exe moveTo 4000x60
-%~n0.exe moveBy -15x0
+%~n0.exe moveTo 4000x70
+%~n0.exe moveBy -24x0
 %~n0.exe click
 
 endlocal & exit /b %errorlevel%
